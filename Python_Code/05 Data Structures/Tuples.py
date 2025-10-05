@@ -1,0 +1,10 @@
+a=(3,)
+print(a[0])
+print(type(a))
+b=(3,4,5,6,5,5,5)
+print(b)
+print(type(b))
+print(b.count(5))
+print(b.index(5))
+
+print({i: i*5 for i in range(1,11)})
